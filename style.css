@@ -1,0 +1,77 @@
+body{ 
+  background-color: cornsilk;
+  font-family: cursive;
+}
+h1 {
+  background-color: purple;
+  color: azure;
+  font-display: Times New Roman;
+  text-align: center;
+}
+p {
+  font-family: cursive;
+  text-align: center;
+}
+li{
+  text-align:center;
+}
+ol {
+  text-align:center;
+}
+h3 {
+  text-align: center;
+  
+}
+img{
+  text-align: center;
+}
+.fade {
+  animation: fadeIn 3s 
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0.7;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 2;
+    transform: translateY(0px);
+  }
+.zoom {
+  width: 300px;
+  animation: zoomIn 8s ease-in-out infinite alternate;
+}
+
+@keyframes zoomIn {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}.zoom {
+  width: 300px;
+  animation: zoomIn 8s ease-in-out infinite alternate;
+}
+
+@keyframes zoomIn {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+img {
+  display: block;  /* 1. Turn the image into a block-level element */
+  margin-left: auto; /* 2. Set margins to automatically expand on the sides */
+  margin-right: auto;
+}
+h2 {
+  color: violet;
+  text-align: center;
+  text-family: Arial;
+}
+    p{
+      font-size: x-small;
+    }
+
